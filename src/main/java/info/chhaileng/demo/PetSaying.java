@@ -9,7 +9,7 @@ public class PetSaying {
 	private Pet pet;
 
 	@Autowired
-	@Qualifier("cat")
+	@Qualifier("dog")
 	public void setPet(Pet pet) {
 		this.pet = pet;
 	}
